@@ -1,0 +1,21 @@
+.o-list {
+    padding: 0;
+}
+    .o-list--unstyled {
+        list-style: none;
+    }
+
+.o-vertical-list {
+    display: block;
+}
+        .o-vertical-list--unstyled {
+            list-style: none;
+        }
+
+.o-horizontal-list {
+    display: inline-block;
+    padding: 0;
+}
+        .o-horizontal-list__item {
+            display: inline-block;
+        }
