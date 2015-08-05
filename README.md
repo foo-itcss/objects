@@ -12,7 +12,7 @@ Once installed, @import into your project in its object layer:
 ````
 Alternatively you can import only needed files, e.g.:
 ```
-@import "objects/grids";
+@import "objects/objects.grids";
 ```
 
 #### Pull requests are welcome
