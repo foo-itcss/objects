@@ -1,6 +1,12 @@
 # ITCSS objects layer
 Reusable objects layer for my (and your) itcss stack
 
+### Install using Bower
+
+```
+$ bower install --save foo-itcss-objects
+```
+
 ### Install as a Git Submodule
 
 ```
