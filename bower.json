@@ -1,0 +1,27 @@
+{
+  "name": "foo-itcss-objects",
+  "version": "0.1.0",
+  "homepage": "https://github.com/foo-itcss/objects",
+  "authors": [
+    "Alessandro Miliucci <lifeisfoo@gmail.com>"
+  ],
+  "description": "Reusable objects layer for my (and your) itcss stack",
+  "main": "_objects.scss",
+  "keywords": [
+    "itcss",
+    "sass",
+    "scss",
+    "objects",
+    "layer",
+    "mixin"
+  ],
+  "license": "GPL-3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}
