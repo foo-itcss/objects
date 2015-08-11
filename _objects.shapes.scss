@@ -1,0 +1,60 @@
+$foo-itcss-o-shapes-circle-width:       50px !default;
+$foo-itcss-o-shapes-circle-height:      $foo-itcss-o-shapes-circle-width !default;
+$foo-itcss-o-shapes-triangle-color:     black !default;
+
+.o-circle {
+    border-radius: 50%;
+    width: $foo-itcss-o-shapes-circle-width;
+    height: $foo-itcss-o-shapes-circle-height;
+}
+
+@keyframes circle-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+        .o-circle--animated {
+            background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
+            background-image: -webkit-radial-gradient(45px 45px, circle cover, yellow, orange);
+            background-image: radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
+
+            animation-name: circle-spin;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+.o-triangle {
+    width: 0;
+    height: 0;
+    /*default arrow up*/
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid $foo-itcss-o-shapes-triangle-color;
+    font-size: 0;
+    line-height: 0;
+}
+
+        .o-triangle--arrow-up {
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-bottom: 5px solid $foo-itcss-o-shapes-triangle-color;
+        }
+
+        .o-triangle--arrow-down {
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-top: 5px solid $foo-itcss-o-shapes-triangle-color;
+        }
+
+        .o-triangle--arrow-left {
+            border-bottom: 5px solid transparent;
+            border-top: 5px solid transparent;
+            border-right: 5px solid $foo-itcss-o-shapes-triangle-color;
+        }
+
+        .o-triangle--arrow-right {
+            border-bottom: 5px solid transparent;
+            border-top: 5px solid transparent;
+            border-left: 5px solid $foo-itcss-o-shapes-triangle-color;
+        }
