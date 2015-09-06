@@ -1,0 +1,16 @@
+.o-fake-table {
+    display: table;
+    width: 100%;
+}
+    .o-fake-table-cell {
+        display: table-cell;
+    }
+    .o-fake-table-cell--middle {
+        vertical-align: middle;
+    }
+    .o-fake-table-cell--bottom {
+        vertical-align: bottom;
+    }
+    .o-fake-table-cell--top {
+        vertical-align: top;
+    }
